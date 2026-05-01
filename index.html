@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gupta ji library </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <h1>Gupta ji library  </h1>
+  <p>Focused Study Environment for Serious Students</p>
+  <p class="sub">Quiet | Comfortable | Affordable</p>
+  <p class="urgency">⚠ Limited Seats Available – Enroll Early</p>
+  <button onclick="scrollToSection()">View Plans</button>
+</header>
+
+<!-- FEES -->
+<section id="fees">
+  <h2>Fee Structure</h2>
+
+  <div class="card-container">
+
+    <div class="card" onclick="selectCard(this)">
+      <h3>Light Room</h3>
+      <p>7 AM - 3 PM / 3 PM - 10 PM</p>
+      <h2>₹600 / month</h2>
+    </div>
+
+    <div class="card" onclick="selectCard(this)">
+      <h3>Dark Room</h3>
+      <p>7 AM - 3 PM / 3 PM - 10 PM</p>
+      <h2>₹600 / month</h2>
+    </div>
+
+    <div class="card highlight" onclick="selectCard(this)">
+      <h3>Full Day</h3>
+      <p>7 AM - 10 PM</p>
+      <h2>₹1000 / month</h2>
+    </div>
+
+  </div>
+</section>
+
+<!-- FACILITIES -->
+<section>
+  <h2>Facilities</h2>
+  <div class="grid">
+    <div>✔ WiFi Available</div>
+    <div>✔ AC + Fan</div>
+    <div>✔ RO Drinking Water</div>
+    <div>✔ Clean Washrooms</div>
+    <div>✔ Charging Points</div>
+    <div>✔ CCTV Security</div>
+    <div>✔ Silent Environment</div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section>
+  <h2>Library Gallery</h2>
+  <div class="gallery">
+    <img src="images/lib1.jpg">
+    <img src="images/lib2.jpg">
+    <img src="images/lib3.jpg">
+    <img src="images/lib4.jpg">
+  </div>
+</section>
+
+<!-- WHY US -->
+<section>
+  <h2>Why Choose Us?</h2>
+  <p>Peaceful, disciplined and affordable study environment designed for student success.</p>
+</section>
+
+<!-- TRUST -->
+<section>
+  <h2>Our Commitment</h2>
+  <p>Safe, clean and disciplined environment with CCTV security, silent rules and proper study atmosphere.</p>
+</section>
+
+<!-- ADMISSION -->
+<section class="admission">
+  <h2>Admission Open</h2>
+  <p>Fill the form to reserve your seat</p>
+  <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc7hQldwIsTLfJaNcgy5HmOL9V--daug4CbfnglJ6WlZEGNtg/viewform?usp=publish-editor" target="_blank" onclick="setTimeout(showThankYou, 4000)">
+  Fill Admission Form
+  </a>
+
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>Contact</h2>
+  <p><b>Address:</b> Near Bangali Chowk, beside Mishra Sweets, Ambikapur</p>
+  <p><b>Phone:</b> 8109944185</p>
+
+  <a class="whatsapp" href="https://wa.me/918109944185" target="_blank">
+    Chat on WhatsApp
+  </a>
+</section>
+
+<footer>
+  <p>© Gupta ji library | All Rights Reserved</p>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a class="float" href="https://wa.me/918109944185" target="_blank">💬</a>
+
+<script src="script.js"></script>
+</body>
+<div id="thankyouScreen" class="thankyou">
+  <div class="box">
+    <h1>🎉 Thank You!</h1>
+    <p>Your admission request has been submitted successfully.</p>
+    <p>We will contact you shortly.</p>
+
+    <button onclick="closeThankYou()">Back to Home</button>
+  </div>
+</div>
+</html>
