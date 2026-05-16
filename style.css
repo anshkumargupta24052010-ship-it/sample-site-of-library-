@@ -167,3 +167,29 @@ footer {
   border: none;
   cursor: pointer;
 }
+/* MAP SECTION */
+
+.map-section{
+  padding:70px 8%;
+  background:#f8f9fc;
+  text-align:center;
+}
+
+.map-section h2{
+  font-size:36px;
+  margin-bottom:15px;
+  color:#111;
+}
+
+.map-text{
+  color:#666;
+  margin-bottom:35px;
+  font-size:16px;
+}
+
+.map-container{
+  width:100%;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
